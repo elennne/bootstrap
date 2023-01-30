@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: royalblue;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .form-label {
+            color: rebeccapurple;
+            font-weight: bolder;
+            
+        }
+        button {
+            background-color: purple;
+            color: black;
+            font-weight: bolder;
+            width: 70px;
+            height: 50px;
+            border:2px solid rgb(209, 209, 11);
+            border-radius: 7px;
+        }
+        button:hover {
+            background-color: rgb(188, 118, 188);
+            color: white;
+            width: 80px;
+            height: 60px;
+            border: 3px solid yellowgreen;
+        }
+       .form-control {
+        background-color: rgb(28, 169, 185);
+        border: 2px solid rgb(56, 43, 129);
+       }
+       input:hover {
+        background-color: yellowgreen;
+        border: 3px solid rgb(45, 7, 83);
+       }
+       #exampleFormControlTextarea1:hover {
+        background-color: yellowgreen;
+        border: 3px solid rgb(45, 7, 83);;
+       }
+       
+    </style>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+    
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="reset">Reset</button>
+    <!-- End Example Code -->
+  </body>
+</html>
